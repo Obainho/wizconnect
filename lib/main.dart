@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: MyHomePage(),
     );
   }
@@ -66,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   elevation: 10,
                 ),
                 onPressed: () {
-                  const url = 'https://pub.dev';
+                  const url = 'https://wizconnect.info/';
                   _launchURL(url);
                 },
                 child: Row(
