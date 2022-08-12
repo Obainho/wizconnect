@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   elevation: 10,
                 ),
                 onPressed: () {
-                  const url = 'https://wizconnect.info/';
+                  const url = 'https://pub.dev';
                   _launchURL(url);
                 },
                 child: Row(
