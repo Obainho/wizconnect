@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.url_button">
    <application
-        android:label="wizconnect"
+        android:label="SocialBurstUp"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
